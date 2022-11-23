@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WebAPI.Models;
 
 namespace WebAPI.Controllers
 {
@@ -11,10 +12,18 @@ namespace WebAPI.Controllers
     [ApiController]
     public class HouseController : ControllerBase
     {
+        private static List<House> _houses = new List<House>();
+
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("HouseController works!");
+            return Ok(_houses);
+        }
+
+        [HttpPost]
+        public IActionResult Post([FromForm] AddHouseDTO house)
+        {
+            return Ok(house);
         }
     }
 }
