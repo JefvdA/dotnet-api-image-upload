@@ -239,3 +239,4 @@
 /home/jefvda/Projects/dotnet-api-image-upload/WebAPI/WebAPI/obj/Debug/net6.0/ref/WebAPI.dll
 /home/jefvda/Projects/dotnet-api-image-upload/WebAPI/WebAPI/obj/Debug/net6.0/WebAPI.pdb
 /home/jefvda/Projects/dotnet-api-image-upload/WebAPI/WebAPI/obj/Debug/net6.0/WebAPI.genruntimeconfig.cache
+/home/jefvda/Projects/dotnet-api-image-upload/WebAPI/WebAPI/bin/Debug/net6.0/WebAPI.staticwebassets.runtime.json

@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "7/8N/7vR8Gil4oF52j1JyaDaDh/w/bwrwTANJiMV94U=",
+  "Hash": "QGNHPMDp5SCa9n1Y8kqseasitgA8SEvy+zq6Lqccf/o=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPI/wwwroot",
+      "Source": "WebAPI",
+      "ContentRoot": "/home/jefvda/Projects/dotnet-api-image-upload/WebAPI/WebAPI/wwwroot/",
+      "BasePath": "_content/WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/jefvda/Projects/dotnet-api-image-upload/WebAPI/WebAPI/wwwroot/images/9f5411e3-087a-4cbf-ba04-c3bebb19f6f2_home.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jefvda/Projects/dotnet-api-image-upload/WebAPI/WebAPI/wwwroot/",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "images/9f5411e3-087a-4cbf-ba04-c3bebb19f6f2_home.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/9f5411e3-087a-4cbf-ba04-c3bebb19f6f2_home.png"
+    },
+    {
+      "Identity": "/home/jefvda/Projects/dotnet-api-image-upload/WebAPI/WebAPI/wwwroot/index.html",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jefvda/Projects/dotnet-api-image-upload/WebAPI/WebAPI/wwwroot/",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
 }

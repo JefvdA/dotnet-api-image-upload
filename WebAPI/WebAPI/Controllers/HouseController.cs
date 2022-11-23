@@ -23,7 +23,29 @@ namespace WebAPI.Controllers
         [HttpPost]
         public IActionResult Post([FromForm] AddHouseDTO house)
         {
-            return Ok(house);
+            var fileName = house.Image!.FileName;
+            
+            var uniqueFileName = Guid.NewGuid() + "_" + fileName;
+            
+            var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", uniqueFileName);
+            
+            using (var fileStream = new FileStream(imagePath, FileMode.Create))
+            {
+                house.Image.CopyTo(fileStream);
+            }
+            
+            var imageUrl = $"https://localhost:7057/images/{uniqueFileName}";
+            
+            var newHouse = new House
+            {
+                Address = house.Address,
+                Price = house.Price,
+                Image = imageUrl
+            };
+            
+            _houses.Add(newHouse);
+
+            return Ok(newHouse);
         }
     }
 }
