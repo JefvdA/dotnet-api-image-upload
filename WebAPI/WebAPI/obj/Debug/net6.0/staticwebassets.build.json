@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QGNHPMDp5SCa9n1Y8kqseasitgA8SEvy+zq6Lqccf/o=",
+  "Hash": "sVaz7R05i1mkQbJVGgt9da5xfNkjnHo9cMeteHI4bW0=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/home/jefvda/Projects/dotnet-api-image-upload/WebAPI/WebAPI/wwwroot/images/9f5411e3-087a-4cbf-ba04-c3bebb19f6f2_home.png",
+      "Identity": "/home/jefvda/Projects/dotnet-api-image-upload/WebAPI/WebAPI/wwwroot/images/c61049b7-69cf-4bc5-b151-245677d44e78_home.png",
       "SourceId": "WebAPI",
       "SourceType": "Discovered",
       "ContentRoot": "/home/jefvda/Projects/dotnet-api-image-upload/WebAPI/WebAPI/wwwroot/",
       "BasePath": "_content/WebAPI",
-      "RelativePath": "images/9f5411e3-087a-4cbf-ba04-c3bebb19f6f2_home.png",
+      "RelativePath": "images/c61049b7-69cf-4bc5-b151-245677d44e78_home.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,7 +31,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/9f5411e3-087a-4cbf-ba04-c3bebb19f6f2_home.png"
+      "OriginalItemSpec": "wwwroot/images/c61049b7-69cf-4bc5-b151-245677d44e78_home.png"
     },
     {
       "Identity": "/home/jefvda/Projects/dotnet-api-image-upload/WebAPI/WebAPI/wwwroot/index.html",
